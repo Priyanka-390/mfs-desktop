@@ -1,0 +1,154 @@
+:root {
+    /* font size  */
+    --fs-sm: 18px;
+    --fs-md: 22px;
+    --fs-lg: 22.5px;
+    --fs-xl: 35.16px;
+    --fs-2xl: 76.04px;
+
+    /* colors */
+    --bs-white: #FFFFFF;
+    --bs-black: #2E2E2E;
+    --bs-bacisblack: #000000;
+    --bs-shadow-black: #000000B2;
+    --bs-mid-grey: #E9E6F5;
+    --bs-lightpurple: #D59DFF;
+    --bs-purple: #8661C5;
+    --bs-darkpurple: #3B2E58;
+    --bs-lightgrey: #FAF9FD;
+}
+
+/* font-size */
+.fs-18 {
+    font-size: var(--fs-sm);
+}
+
+.fs-22 {
+    font-size: var(--fs-md);
+}
+
+.fs-225 {
+    font-size: var(--fs-lg);
+}
+
+.fs-35 {
+    font-size: var(--fs-xl);
+}
+
+.fs-76 {
+    font-size: var(--fs-2xl);
+}
+
+/* colors */
+.bs-black {
+    color: var(--bs-black);
+}
+
+.bs-bacicblack {
+    color: var(--bs-bacisblack);
+}
+
+.bs-mid-grey {
+    color: var(--bs-mid-grey);
+}
+
+.bs-lightpurple {
+    color: var(--bs-lightpurple);
+}
+
+.bs-purple {
+    color: var(--bs-purple);
+}
+
+.bs-darkpurple {
+    color: var(--bs-darkpurple);
+}
+
+.bs-lightgrey {
+    color: var(--bs-lightgrey);
+}
+
+.bg-midgrey {
+    background-color: var(--bs-mid-grey);
+}
+
+.bg-white {
+    background-color: var(--bs-white);
+}
+
+.bg-lightpurple {
+    background-color: var(--bs-lightpurple);
+}
+
+.bg-purple {
+    background-color: var(--bs-purple);
+}
+
+.bg_black {
+    background-color: var(--bs-black);
+}
+
+.bg-lightgrey {
+    background-color: var(--bs-lightgrey);
+}
+
+.bg-darkpurple {
+    background-color: var(--bs-darkpurple);
+}
+
+.nav-bg {
+    background: linear-gradient(90deg, #3B2E58 0%, #8661C5 100%);
+}
+
+/* line-height */
+.lh-148 {
+    line-height: 148.008%;
+}
+
+.lh-nor {
+    line-height: normal;
+}
+
+/* max-width */
+.mx-683 {
+    max-width: 683px;
+}
+
+.mx-382 {
+    max-width: 382px;
+}
+
+.mw-779 {
+    max-width: 779px;
+}
+
+.mw-828 {
+    max-width: 828px;
+}
+
+.mw-1404 {
+    max-width: 1404px;
+}
+
+.mw-530 {
+    max-width: 530px;
+}
+
+.mw-925 {
+    max-width: 925px;
+}
+
+.mw-887 {
+    max-width: 887px;
+}
+
+@media (max-width:576px) {
+    :root {
+        /* font size  */
+        --fs-sm: 16px;
+        --fs-md: 18px;
+        --fs-lg: 19px;
+        --fs-xl: 25px;
+        --fs-2xl: 54.04px;
+    }
+}
